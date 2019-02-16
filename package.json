@@ -1,16 +1,12 @@
 {
-  "name": "Infilect",
+  "name": "Flickr-Services",
   "version": "1.0.0",
-  "description": "Infilect",
+  "description": "Flickr-Services",
   "scripts": {
-    "start": "concurrently --kill-others \"npm run start-dev\" \"npm run start-dev-server\" ",
     "start-dev": "webpack -w --config ./client/webpack.config.js",
     "start-dev-server": "start cmd /c nodemon ./server/app.js",
-    "build": "concurrently \"npm run build:client\" \"npm run build:server\" ",
-    "build:dev": "concurrently \"npm run build:i18n \" \"npm run build:dev:client\" \"npm run build:server\" ",
     "build:client": "webpack -p --config ./client/webpack.prod.config.js",
     "build:server": "webpack -p --config ./server/webpack.prod.config.js",
-    "build:dev:client": "webpack -p --config ./client/webpack.prod.config.js --env.isDev",
     "lint": "eslint ./client/src/ ./server -f stylish",
     "lint:fix": "eslint ./client/src/ ./server/ -f stylish --fix"
   },
