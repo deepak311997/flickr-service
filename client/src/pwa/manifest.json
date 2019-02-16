@@ -1,0 +1,6 @@
+{
+  "short_name": "Flickr Services",
+  "name": "Flickr Services",
+  "start_url": "./index.html",
+  "display": "standalone"
+}

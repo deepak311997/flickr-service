@@ -1,0 +1,89 @@
+@import "header/app-header";
+@import "gallery/app-gallery";
+@import "group/app-group";
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(216,219,239,.3);
+}
+
+.align-inline {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.group-data {
+  padding: 25px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.group-paper {
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 12px !important;
+  padding: 20px !important;
+  height: 40vh;
+  width: 25vw;
+  min-width: 20vw;
+  min-height: 40vh;
+}
+
+@font-face{font-family: Osr;
+  src:  url('~assets/fonts/osr.eot');  /* IE9 Compat Modes */
+  src:  url('~assets/fonts/osr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~assets/fonts/osr.woff') format('woff'), /* Modern Browsers */
+  url('~assets/fonts/osr.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('~assets/fonts/osr.svg#Osr') format('svg');  /* Legacy iOS */
+}
+@font-face{font-family: Osl;
+  src:  url('~assets/fonts/osl.eot');  /* IE9 Compat Modes */
+  src:  url('~assets/fonts/osl.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~assets/fonts/osl.woff') format('woff'), /* Modern Browsers */
+  url('~assets/fonts/osl.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('~assets/fonts/osl.svg#Osl') format('svg');  /* Legacy iOS */
+}
+@font-face{font-family: Ossb;
+  src:  url('~assets/fonts/ossb.eot');  /* IE9 Compat Modes */
+  src:  url('~assets/fonts/ossb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~assets/fonts/ossb.woff') format('woff'), /* Modern Browsers */
+  url('~assets/fonts/ossb.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('~assets/fonts/ossb.svg#Ossb') format('svg');  /* Legacy iOS */
+}
+@font-face{font-family: Osb;
+  src:  url('~assets/fonts/osb.eot');  /* IE9 Compat Modes */
+  src:  url('~assets/fonts/osb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~assets/fonts/osb.woff') format('woff'), /* Modern Browsers */
+  url('~assets/fonts/osb.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('~assets/fonts/osb.svg#Osb') format('svg');  /* Legacy iOS */
+}
+@font-face{font-family: Oseb;
+  src:  url('~assets/fonts/oseb.eot');  /* IE9 Compat Modes */
+  src:  url('~assets/fonts/oseb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~assets/fonts/oseb.woff') format('woff'), /* Modern Browsers */
+  url('~assets/fonts/oseb.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('~assets/fonts/oseb.svg#Oseb') format('svg');  /* Legacy iOS */
+}
+@font-face{font-family: Mpb;
+  src:  url('~assets/fonts/MinionPro-Bold.eot');  /* IE9 Compat Modes */
+  src:  url('~assets/fonts/MinionPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~assets/fonts/MinionPro-Bold.woff') format('woff'), /* Modern Browsers */
+  url('~assets/fonts/MinionPro-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}

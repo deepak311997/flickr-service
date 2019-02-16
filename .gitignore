@@ -1,0 +1,5 @@
+node_modules
+flickr
+.idea
+client\build\locales\en.json
+client-bundles
